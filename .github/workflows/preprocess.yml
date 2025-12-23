@@ -14,7 +14,7 @@ jobs:
         run: |
           pip install pandas scikit-learn
       - name: Run Preprocessing
-        run: python automate_ivanagita.py
+        run: python automated_ivanagita.py
       - name: Commit and Push Clean Data
         run: |
           git config --global user.name "github-actions[bot]"
