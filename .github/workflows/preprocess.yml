@@ -14,7 +14,7 @@ jobs:
         run: |
           pip install pandas scikit-learn
       - name: Run Preprocessing
-        run: python automate_Nama-siswa.py # Sesuaikan dengan nama file .py kamu
+        run: python automate_ivanagita.py
       - name: Commit and Push Clean Data
         run: |
           git config --global user.name "github-actions[bot]"
